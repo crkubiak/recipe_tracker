@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 describe Recipe do
   describe 'validity' do
     let(:recipe) { Recipe.new }
-
     before do
       recipe.valid?
     end
