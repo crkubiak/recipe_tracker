@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root to: 'welcome#show'
 
   resources :recipes
+  resources :meal_plans
 
   # def index
   #   @recipes = current_user.recipes.order(:id)
